@@ -1,0 +1,1 @@
+Day 2 of Knight Travails working on implenting the data structures and node layouts
