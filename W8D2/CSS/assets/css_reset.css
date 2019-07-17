@@ -1,0 +1,27 @@
+html{
+    border: 5px;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+ol, ul{
+    font: inherit;
+    font-family: inherit
+} 
+
+li {
+    list-style: georgian inside url('/media/examples/rocket.svg');
+}
+
+body {
+  line-height: 1.5;
+}
+
+img{
+  width: 100%;
+}
+
+header > img {
+  width: 100%;
+}
