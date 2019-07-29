@@ -9,10 +9,10 @@ RSpec.describe UsersController, type: :controller do
     end
   end
 
-  describe "GET #create" do
+  describe "POST #create" do
     it "returns http success" do
-      get :create
-      expect(response).to have_http_status(:success)
+      post :create, params:{ user: { email: "tommy@mail.com", password: "hunter2"}}
+      # expect(response)
     end
   end
 
