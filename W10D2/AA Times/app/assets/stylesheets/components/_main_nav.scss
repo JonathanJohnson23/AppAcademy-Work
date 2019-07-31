@@ -1,0 +1,51 @@
+.main-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+   
+    
+}
+
+.left-nav > ul,
+.right-nav > ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+.left-nav > ul > li {
+    font-family: inherit;
+    font-size: inherit;
+    text-transform: inherit;
+
+}
+
+.right-nav > ul > li {
+    margin: 2px;
+
+}
+
+.right-nav > ul > li:last-of-type {
+    font-size: 18px;
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+    color: red
+    
+
+}
+
+.left-nav span {
+    margin-right: 8px;
+
+
+}
+
+
+.right-nav i {
+    margin-left: 8px;
+
+
+}
