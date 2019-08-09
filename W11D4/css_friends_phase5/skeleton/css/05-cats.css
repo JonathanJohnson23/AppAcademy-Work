@@ -1,0 +1,39 @@
+/* PHASE 5: Cats */
+.content-header {
+  position: relative;
+  height:  200px;
+   width: 100%;
+
+   background: url(/home/senster/Documents/pair_programming/w11d4/css_friends_phase5/skeleton/images/cats.jpg);
+   background-size: cover;
+}
+
+/* .make-a-friend {
+   position: absolute;
+  color: red;
+  bottom: 15px;
+  right: 15px;
+  
+  /* text-shadow: tomato; */
+  /* bottom: 30px; */
+/* } */ 
+
+.content-header > button {
+  position: absolute;
+  color: white;
+  background-color: white;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px;
+  
+  text-shadow: 2px 2px #ff0000;
+  /* bottom: 30px; */
+}
+
+.content-header > h2 {
+   position: absolute;
+   color: white;
+   bottom: 15px;
+   left: 250px;
+   /* margin: auto; */
+}
