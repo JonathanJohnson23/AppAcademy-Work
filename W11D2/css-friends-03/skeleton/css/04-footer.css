@@ -1,0 +1,15 @@
+/* PHASE 4: Footer */
+.footer-top{
+   margin: 0 auto;
+   display: flex;
+   background: aqua;
+   justify-content: center
+}
+
+.footer-top > label {
+
+}
+
+.footer-tags {
+    display: flex;
+}

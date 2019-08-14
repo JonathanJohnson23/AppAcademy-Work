@@ -1,0 +1,32 @@
+html, body, ul, li, h1{
+   margin: 0;
+   padding: 0;
+}
+h1{
+   margin: auto;
+   width: 240px;
+   font-size: -webkit-xxx-large;
+}
+
+ul{
+   list-style: none;
+   display: flex;
+   width: 480px;
+   flex-wrap: wrap;
+   margin: auto;
+   border: 10px solid rgb(65, 65, 65)
+}
+
+li{
+   width: 150px;
+   height: 150px;
+   border: 5px solid rgb(65, 65, 65);
+   cursor: pointer;
+   margin: auto;
+
+}
+
+li:hover {
+   background: yellow;
+ }
+ 
