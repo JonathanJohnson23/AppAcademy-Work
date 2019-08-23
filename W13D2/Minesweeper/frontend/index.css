@@ -1,0 +1,66 @@
+.board {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;  
+    display: flex;
+}
+
+.row {
+    width: 250px;
+    margin: 0 auto;
+    border-style: outset;
+}
+
+
+ .tile {
+   position: relative;
+   background: rgba(163, 163, 163, 0.5);
+   border-style: outset;
+   line-height: 20px;
+   border-width: 3px;
+   font-size: 14px;
+   text-align: center;
+   line-height: 66px;
+   height: 60.0px;
+   font-weight: bold;
+   font-family: 'Dancing Script', cursive;
+} 
+
+
+.EXPLORED{
+   border-style: inset;
+}
+
+.styleMe{
+   border-style: outset;
+}
+
+.modal {
+   z-index: 998;
+   position: absolute;
+   top: 0%;
+   bottom: 0%;
+   left: 0%;
+   right: 0%;
+   background: rgba(0, 0, 0, .3);
+}
+
+.modal-box {
+   z-index: 999;
+   position: absolute;
+   background: #fff;
+   border-radius: 5px;
+   border: 1px solid black;
+   font-size: 20px;
+   width: 200px;
+   height: 120px;
+   top: 300px;
+   left: 200px;
+   margin: 0 auto;
+   right: 0;
+   bottom: 0;
+   text-align: center;
+   transform: translateX(-50%) translateY(-50%);
+} 
