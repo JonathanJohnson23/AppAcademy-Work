@@ -1,0 +1,16 @@
+version: "2"
+services:
+  drupal:
+    build:
+      context: .  
+    image: jjohnson/custom-drupal
+    ports:
+      - 8080:80
+  postgres:
+    image: postgres:9.6
+    environment:
+      - POSTGRES_PASSWORD=funtimes
+    volumes:
+      - drupal-data:/var/lib/postgresql/data
+volumes:
+  drupal-data:
